@@ -155,7 +155,7 @@ export default {
         },
         {
           min: 3,
-          max: 5,
+          max: 6,
           title: "Wow, congrats you're a genius!",
           desc: "Studying has definitely paid off for you",
         },
