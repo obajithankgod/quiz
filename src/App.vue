@@ -57,7 +57,28 @@ export default {
           ],
         },
         {
-          q: 'How many letters are in the word "Banana"?',
+          q: "Who is the founder of VueJS",
+          answers: [
+            {
+              text: "faceBook Developers",
+              is_correct: false,
+            },
+            {
+              text: "Elon Musk",
+              is_correct: false,
+            },
+            {
+              text: "Evan You",
+              is_correct: true,
+            },
+            {
+              text: "Google Developers",
+              is_correct: false,
+            },
+          ],
+        },
+        {
+          q: "How many Continent are in the World",
           answers: [
             {
               text: "5",
@@ -65,31 +86,10 @@ export default {
             },
             {
               text: "7",
-              is_correct: false,
-            },
-            {
-              text: "6",
               is_correct: true,
             },
             {
-              text: "12",
-              is_correct: false,
-            },
-          ],
-        },
-        {
-          q: "Find the missing letter: C_ke",
-          answers: [
-            {
-              text: "e",
-              is_correct: false,
-            },
-            {
-              text: "a",
-              is_correct: true,
-            },
-            {
-              text: "i",
+              text: "9",
               is_correct: false,
             },
           ],
@@ -129,18 +129,18 @@ export default {
           ],
         },
         {
-          q: "fine the missing letter in the word Devel_pment",
+          q: "How many Countries are in Africa",
           answers: [
             {
-              text: "e",
+              text: "44",
               is_correct: false,
             },
             {
-              text: "o",
+              text: "54",
               is_correct: true,
             },
             {
-              text: "u",
+              text: "56",
               is_correct: false,
             },
           ],
